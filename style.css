@@ -20,12 +20,11 @@
 }
 
 .head a {
-    text-decoration: none;
     color: aliceblue;
 }
 
 .head a:link {
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 .bg {
@@ -227,6 +226,7 @@
 .search_button {
     width: 45px;
     height: 45px;
+    margin-top: 10px;
     border: none;
     display: flex;
     align-items: center;
