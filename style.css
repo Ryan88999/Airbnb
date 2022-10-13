@@ -1,0 +1,488 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100;0,8..144,200;0,8..144,300;0,8..144,700;1,8..144,100;1,8..144,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Roboto Serif', serif;
+}
+
+.head {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: medium;
+}
+
+.head a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.head a:link {
+    text-decoration: none;
+}
+
+.bg {
+    background-image: url("https://a0.muscache.com/im/pictures/cf39f4c4-e860-43d4-85be-deddd7b2da90.jpg?im_w=1440");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    padding: 0 80px 0 80px;
+}
+
+.top-bar-container {
+    height: 80px;
+    width: 100%;
+    background-color: transparent;
+    color: white !important;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    margin-top: 0%;
+}
+
+.top-left {
+    width: 453px;
+    height: 37px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: left;
+    font-size: 22px;
+    font-weight: bolder;
+}
+
+.logo {
+    align-items: center;
+    align-content: center;
+}
+
+.logo:hover {
+    cursor: pointer;
+}
+
+.top-mid {
+    width: 453px;
+    height: 37px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    font: 18px;
+    padding: 0 10px 0px 10px;
+}
+
+#home,
+#locations,
+#aboutus {
+    display: flex;
+}
+
+#home:hover,
+#locations:hover,
+#aboutus:hover {
+    border-bottom: 2px solid white;
+    cursor: pointer;
+}
+
+.top-right {
+    height: 50px;
+    width: 453px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+    padding: 0px 20px;
+}
+
+#host {
+    background-color: transparent;
+    color: white;
+    font-size: 16px;
+    padding: 5px 5px;
+    border-radius: 25px;
+    border: 1px transparent solid;
+    height: 40px;
+}
+
+#host:hover {
+    background-color: rgba(121, 163, 185, 0.5);
+    cursor: pointer;
+}
+
+#language {
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#language:hover {
+    background-color: rgba(121, 163, 185, 0.5);
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+}
+
+#nav-button {
+    height: 42px;
+    width: 77px;
+    border-radius: 20px;
+}
+
+#nav-button:hover {
+    height: 42px;
+    width: 77px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.search-input {
+    width: 1360px;
+    height: 66px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+.search-bar {
+    width: 850px;
+    height: 66px;
+    display: grid;
+    grid: auto / auto auto auto auto auto;
+    background-color: white;
+    border-radius: 35px;
+}
+
+.search-locations-con {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-content: center;
+    border-right: 2px solid rgba(121, 163, 185, 0.2);
+    padding: 10px 0px 0px 20px;
+    margin: 0px;
+}
+
+.search-bar #phd {
+    margin-top: 5px;
+}
+
+.search-in-con {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-content: center;
+    border-right: 2px solid rgba(121, 163, 185, 0.2);
+    padding: 10px 0px 0px 20px;
+    margin: 0px;
+}
+
+.search-out-con {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-content: center;
+    border-right: 2px solid rgba(121, 163, 185, 0.2);
+    padding: 10px 0px 0px 20px;
+    margin: 0px;
+}
+
+.search-guest-con {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-content: center;
+    padding: 10px 0px 0px 20px;
+    margin: 0px;
+}
+
+.search_button-con {
+    display: flex;
+    top: 10px;
+    justify-content: right;
+    height: 50px;
+    width: 80px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.search_button {
+    width: 45px;
+    height: 45px;
+    border: none;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #fa215b;
+}
+
+
+.preface {
+    display: flex;
+    height: 625px;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+.preface>span {
+    font-family: 'Roboto Serif', serif;
+    font-size: 58px;
+    color: white;
+    width: 600px;
+}
+
+.preface>button {
+    font-family: 'Roboto Serif', serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+    width: 180px;
+    height: 32px;
+    border-radius: 10px;
+    padding-top: 0px;
+}
+
+.white.bg {
+    width: 1519px;
+    height: 1000px;
+    background-color: white;
+    background-size: cover;
+    margin: 5px 10px 10px 10px;
+    padding: 5px 10px 10px 10px;
+}
+
+.flex-container {
+    display: grid;
+    grid: auto auto /auto auto auto auto;
+    grid-gap: 10px;
+    padding: 80px;
+}
+
+.khaoyai,
+.chiangrai,
+.samui,
+.samet,
+.pathum,
+.pattaya,
+.rayong,
+.chiangmai {
+    width: 326px;
+    height: 70px;
+    background-color: transparent;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.khaoyai>img,
+.chiangrai>img,
+.samui>img,
+.samet>img,
+.pathum>img,
+.pattaya>img,
+.rayong>img,
+.chiangmai>img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 20px;
+}
+
+.text {
+    padding-left: 20px;
+    padding-right: 0px;
+}
+
+
+/* .accom {
+    font-size: 20px;
+    padding-left: 80px;
+}
+
+.accom-img-con {
+    display: grid;
+    grid: auto/auto auto auto auto;
+    width: 1350px;
+    height: 400px;
+    grid-gap: 10px;
+}
+
+.accom-img-con #house img,
+.accom-img-con #cabin img,
+.accom-img-con #spaces img,
+.accom-img-con #tubs img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 10px;
+}
+
+.accom-img-con li:hover {
+    cursor: grabbing;
+} */
+
+.accom {
+    padding: 0px 80px 20px 80px;
+    height: 400px;
+    width: 1320px;
+}
+
+.accom-con {
+    display: grid;
+    grid: auto/auto auto auto auto;
+    grid-gap: 10px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.accom-con img {
+    max-width: 326px;
+    max-height: 326px;
+    border-radius: 10px;
+}
+
+.captions {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.exp-act {
+    padding: 50px 80px 50px 80px;
+    background-color: black;
+    color: white;
+    height: 560px;
+}
+
+.exp-act-con {
+    margin-top: 20px;
+    display: grid;
+    grid: auto/auto auto auto;
+    grid-gap: 10px;
+}
+
+.virtual-exp>img,
+.exp>img,
+.adv>img {
+    max-width: 440px;
+    max-height: 440px;
+    border-radius: 20px;
+}
+
+.host-commu {
+    margin-top: 10px;
+    padding: 10px 80px 50px 80px;
+    height: 350px;
+    width: 1350px;
+}
+
+.community-con {
+    margin-top: 20px;
+    display: grid;
+    grid: auto/auto auto auto;
+    grid-gap: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#host-commu>img,
+#virtual-commu>img,
+#exp-commu>img {
+    max-width: 420px;
+    max-height: 292px;
+    border-radius: 10px;
+}
+
+
+.footer {
+    border-top: 2px solid rgba(121, 163, 185, 0.2);
+    background-color: rgba(196, 213, 222, 0.2);
+    width: 1340px;
+    height: 360px;
+    padding: 10px 100px 10px 80px;
+}
+
+.footer-con {
+    margin: 15px;
+    padding-bottom: 10px;
+    display: grid;
+    grid: auto/auto auto auto auto;
+    grid-gap: 20px;
+    font-size: 15px;
+    color: #fa215b;
+    border-bottom: 2px solid rgba(121, 163, 185, 0.2);
+}
+
+.footer-con a {
+    color: black;
+    line-height: 1.8;
+    font-size: 14px;
+}
+
+.footer-con a:link {
+    text-decoration: none;
+}
+
+.footer-con a:hover {
+    text-decoration: underline;
+}
+
+.footer-head {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.footer-head:link {
+    text-decoration: none;
+    pointer-events: none;
+}
+
+.footer-head:hover {
+    text-decoration: none;
+}
+
+.credit {
+    padding-left: 15px;
+
+}
+
+.credit-con {
+    display: flex;
+    flex-direction: row;
+    width: 1300px;
+}
+
+.right-credit {
+    padding-left: 300px;
+    width: 500px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100px;
+}
+
+.contact img {
+    height: 15px;
+    width: 15px;
+}
